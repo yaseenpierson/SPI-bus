@@ -23,7 +23,7 @@ int main(void){
 	
  while(1){
 	 
-	 uint16_t current_state = (PORTD & (1<<PD2)); //READS current state of button
+	 uint16_t current_state = (PIND & (1<<PD2)); // PINX READS current state of button
 	 
 	 if(current_state && !pre_state){ //checks edge condition
 		 PORTB &=~(1<<PB2); //SELECT SLAVE A

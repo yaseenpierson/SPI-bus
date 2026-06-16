@@ -398,12 +398,12 @@ END GROUP
  .debug_frame   0x00000000       0x24 main.o
  .debug_frame   0x00000024       0x34 master.o
 
-.debug_str      0x00000000      0x395
+.debug_str      0x00000000      0x3cd
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x17a main.o
-                                0x1ae (size before relaxing)
- .debug_str     0x00000382       0x13 master.o
+ .debug_str     0x00000208      0x166 main.o
+                                0x19a (size before relaxing)
+ .debug_str     0x0000036e       0x5f master.o
                                 0x198 (size before relaxing)
 
 .debug_loc      0x00000000       0x72
